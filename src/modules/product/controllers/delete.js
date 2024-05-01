@@ -1,4 +1,4 @@
-import { DELETE_DATA_MESSAGE, INTERNAL_SERVER_ERROR_MESSAGE } from "../constants/index.js";
+import { DELETE_DATA_MESSAGE, INTERNAL_SERVER_ERROR_MESSAGE } from "../../../constants/index.js";
 import deleteData from "../services/delete.js";
 
 const deleteController = async (req, res) => {

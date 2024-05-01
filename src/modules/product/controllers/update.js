@@ -1,4 +1,4 @@
-import { INTERNAL_SERVER_ERROR_MESSAGE, UPDATE_DATA_MESSAGE } from "../constants/index.js";
+import { INTERNAL_SERVER_ERROR_MESSAGE, UPDATE_DATA_MESSAGE } from "../../../constants/index.js";
 import updateData from "../services/update.js";
 
 const updateController = async (req, res) => {

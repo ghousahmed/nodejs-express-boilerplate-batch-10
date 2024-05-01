@@ -1,4 +1,4 @@
-import { INTERNAL_SERVER_ERROR_MESSAGE } from "../constants/index.js";
+import { INTERNAL_SERVER_ERROR_MESSAGE } from "../../../constants/index.js";
 import getData from "../services/get.js";
 
 const getController = async (req, res) => {
