@@ -27,6 +27,7 @@ const uploadFile = async (file) => {
                             return;
                         }
                         fsExtra.removeSync(filePath)
+                        fsExtra.removeSync(resizePath)
                         resolve(result)
                     });
             })
