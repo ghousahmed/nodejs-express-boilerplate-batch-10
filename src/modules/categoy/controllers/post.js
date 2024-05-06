@@ -7,7 +7,8 @@ const postController = async (req, res) => {
         const data = await postData(req.body);
         res.status(200).send({ status: 200, data });
     } catch (err) {
-        res.status(500).send({ status: 500, message: INTERNAL_SERVER_ERROR_MESSAGE, err });
+        console.log("err", err);
+        res.status(500).send({ status: 500, message: INTERNAL_SERVER_ERROR_MESSAGE });
     }
 }
 
